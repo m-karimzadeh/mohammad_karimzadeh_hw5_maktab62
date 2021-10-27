@@ -1,0 +1,40 @@
+/*** Created by finalstar on 1/19/2021. */
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------------------- reset ----------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { display: block; }
+body{ line-height: 1; }
+table { border-collapse: collapse; border-spacing: 0; }
+input,textarea{ padding: 0; font-family: textFont; font-size: 15px; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+
+html,body{ width: 100%; height: 100%; background: #297fb8; }
+*{ box-sizing: border-box; }
+
+::-webkit-input-placeholder{ opacity: .25; }
+:-moz-placeholder{ opacity: .25; }
+::-moz-placeholder{ opacity: .25; }
+:-ms-input-placeholder{ opacity: .25; }
+
+.container{ padding: 5px 10px; }
+form{ width: 350px; padding: 25px 50px; margin: auto; background: #ffffff; text-align: center; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; }
+form h1{ line-height: 30px; font-family: sans-serif; font-weight: bold; font-size: 23px; }
+form input{ width: 100%; height: 40px; margin-top: 5px; border: none; background: #ecf0f2; font-size: 14px; border-radius: 5px; display: block; text-align: center; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; }
+form button{ width: 100%; height: 40px; margin-top: 5px; border: none; background: #2e9bd9; font-size: 14px; border-radius: 5px; font-weight: bold; color: #ffffff; display: block; text-align: center; cursor: pointer; transition: all .3s linear; -webkit-transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear; -o-transition: all .3s linear; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; }
+form button:hover{ background: #ecf0f2; color: #000000; }
+

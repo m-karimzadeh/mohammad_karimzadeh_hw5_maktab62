@@ -1,0 +1,52 @@
+/*** Created by finalstar on 1/19/2021. */
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------------------- reset ----------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { display: block; }
+body{ line-height: 1; }
+table { border-collapse: collapse; border-spacing: 0; }
+input,textarea{ padding: 0; font-family: textFont; font-size: 15px; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+
+html,body{ width: 100%; height: 100%; background: #f9f7cd; }
+*{ box-sizing: border-box; }
+
+::-webkit-input-placeholder{ opacity: .25; }
+:-moz-placeholder{ opacity: .25; }
+::-moz-placeholder{ opacity: .25; }
+:-ms-input-placeholder{ opacity: .25; }
+
+.container{ padding: 5px 10px; }
+.container h1{ line-height: 30px; font-family: sans-serif; font-size: 23px; font-weight: bold; }
+.marginTop{ margin-top: 20px; }
+header{ padding: 5px 10px; background: #202020; }
+header a{ line-height: 24px; margin-right: 10px; font-family: arial; font-size: 14px; color: #ffffff; text-decoration: none; display: inline-block; transition: all .3s linear; -webkit-transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear; -o-transition: all .3s linear; }
+header a:hover{ color: #f6e72d; }
+
+#mainBox{ padding: 10px 10px; }
+#mainBox:after{ content: ""; clear: both; display: block; }
+#mainBox > section:nth-child(1){ width: 200px; margin-right: 20px; float: left; }
+#mainBox > section:nth-child(2){ width: calc(100% - 540px); margin-right: 20px; float: left; }
+#mainBox > section:nth-child(3){ width: 300px; float: left; }
+.blueInfoBox{ line-height: 30px; margin-bottom: 15px; padding: 15px 0; background: #3e88de; text-align: center; }
+.blueInfoBox:last-child{ margin-bottom: 0; }
+.purpleBox{ line-height: 30px; margin-bottom: 15px; padding: 40px 0; background: #8a2be2; text-align: center; }
+.purpleBox:last-child{ margin-bottom: 0; }
+
+footer{ padding: 25px 0; background: #f6e72d; text-align: center; }
+
