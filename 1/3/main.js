@@ -65,4 +65,3 @@ let additionalPersonData =
             city: "Hamedan"
         }
     ]
-

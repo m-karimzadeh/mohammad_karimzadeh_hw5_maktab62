@@ -4,7 +4,7 @@ function mapCreate(mapLength){
     for (let i = 0; i < mapLength; i++) {
         map[i] = "-";
     }
-
+    // map.fill(300, '-')
     return map;
 }
 
@@ -15,6 +15,7 @@ console.log("This game map is :", showMap.join(""));
 const numberOfcars = prompt("enter the number of cars : ");
 let cars = []
     ,carLocation = [];
+
 for (let i = 0; i < numberOfcars; i++) {
     cars[i] = prompt(`enter car ${parseInt(i) + 1} name: `)
     carLocation[i] = -1;
@@ -43,11 +44,10 @@ let flag = true
 while (flag) {
     for (let i = 0; i < numberOfcars; i++) {
         if(carLocation[i] <= 300){
-            newCarLocation = carLocation[i] + (Math.floor(Math.random() * 10));
-            carLocation[i] = (carLocation[i]) + (Math.floor(Math.random() * 10));
+            newCarLocation = parseInt(carLocation[i]) + (Math.floor(Math.random() * 10));
 
-            if (carLocation.includes(newCarLocation) > -1) {
-                carLocation[carLocation.includes(newCarLocation)] = -1;
+            if (carLocation.indexOf(newCarLocation) > -1) {
+                carLocation[carLocation.indexOf(newCarLocation)] = -1;
             }
 
             carLocation[i] = newCarLocation;
